@@ -1,0 +1,32 @@
+name: graduation_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.1.2
+  dartz: ^0.10.1
+  injectable: ^2.3.2
+  internet_connection_checker: ^1.0.0+1
+  json_annotation: ^4.8.1
+  flutter_bloc: ^8.1.1
+  get_it: ^7.6.7
+  sizer: ^2.0.15
+  dio: ^4.0.0
+  easy_localization: ^3.0.3
+  freezed: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+flutter:
+  uses-material-design: true
